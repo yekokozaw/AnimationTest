@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnViewAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ViewAnimation"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnViewGroupAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ViewGroup"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPhysicsAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physics"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnText"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="10"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PADCAnimations</string>
+    <string name="txt_view_animation">A sequence of animation instructions defines the tween animation,defined by either XML or Android code. As with defining a layout, an XML file is recommended because it\'s more readable,reusable, and swappable than hard-coding the animation. In the example below, we use XML. (To learn more about definingan animation in your application code,instead of XML, refer to the AnimationSet class and other Animation subclasses.)</string>
+</resources>
