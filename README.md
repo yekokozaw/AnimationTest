@@ -1,5 +1,5 @@
 # Animation
-### I tested the following animator.
+### I tested the following animator in this object.
 <ul>
   <li>Object Animator</li>
   <li>Animator Set</li>
